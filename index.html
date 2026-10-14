@@ -13,7 +13,6 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            /* Устанавливаем рисованный стиль шрифта */
             font-family: 'Caveat Brush', 'Permanent Marker', cursive, sans-serif;
         }
         body {
@@ -47,9 +46,8 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.4);
         }
         .tier-header {
-            width: 130px;
+            width: 120px;
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
             font-weight: 900;
@@ -59,14 +57,8 @@
             text-align: center;
         }
         .tier-title {
-            font-size: 32px;
-            line-height: 0.9;
-        }
-        .tier-sub {
-            font-size: 14px;
-            letter-spacing: 1px;
-            opacity: 0.9;
-            margin-top: 2px;
+            font-size: 36px;
+            line-height: 1;
         }
 
         .tier-sss .tier-header { background: #ff2a6d; color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.5); }
@@ -97,7 +89,7 @@
             color: #ffffff;
             box-shadow: 0 3px 6px rgba(0,0,0,0.4);
             transition: all 0.15s ease;
-            font-style: italic; /* Добавляем наклон как на картинке */
+            font-style: italic;
         }
         .cat-card:hover {
             transform: translateY(-3px) scale(1.03);
@@ -135,11 +127,11 @@
         <div class="tier-row tier-sss">
             <div class="tier-header">
                 <span class="tier-title">SSS</span>
-                <span class="tier-sub">Nightmare</span>
             </div>
             <div class="tier-content">
                 <div class="cat-card">Night Cat</div>
                 <div class="cat-card">Cat of Nightmare</div>
+                <div class="cat-card">Pumpkin Cat</div>
             </div>
         </div>
 
@@ -147,7 +139,6 @@
         <div class="tier-row tier-ss">
             <div class="tier-header">
                 <span class="tier-title">SS</span>
-                <span class="tier-sub">Divine</span>
             </div>
             <div class="tier-content">
                 <div class="cat-card">Fallen Angel Cat</div>
@@ -160,12 +151,12 @@
         <div class="tier-row tier-s">
             <div class="tier-header">
                 <span class="tier-title">S</span>
-                <span class="tier-sub">Mythic</span>
             </div>
             <div class="tier-content">
                 <div class="cat-card">Troll Cat</div>
                 <div class="cat-card">Faceless Cat</div>
-                <div class="cat-card">Secret Cat</div>
+                <div class="cat-card">Dismantle Cat</div>
+                <div class="cat-card">Killer Cat</div>
             </div>
         </div>
 
@@ -173,10 +164,10 @@
         <div class="tier-row tier-a">
             <div class="tier-header">
                 <span class="tier-title">A</span>
-                <span class="tier-sub">Legendary</span>
             </div>
             <div class="tier-content">
                 <div class="cat-card">Ghost Cat</div>
+                <div class="cat-card">Secret Cat</div>
             </div>
         </div>
 
@@ -184,7 +175,6 @@
         <div class="tier-row tier-b">
             <div class="tier-header">
                 <span class="tier-title">B</span>
-                <span class="tier-sub">Rare</span>
             </div>
             <div class="tier-content">
                 <div class="cat-card">Underwater Cat</div>
@@ -196,7 +186,6 @@
         <div class="tier-row tier-c">
             <div class="tier-header">
                 <span class="tier-title">C</span>
-                <span class="tier-sub">Uncommon</span>
             </div>
             <div class="tier-content">
                 <div class="cat-card">Ruby Cat</div>
@@ -208,7 +197,6 @@
         <div class="tier-row tier-d">
             <div class="tier-header">
                 <span class="tier-title">D</span>
-                <span class="tier-sub">Common</span>
             </div>
             <div class="tier-content">
                 <div class="cat-card">Cat</div>
